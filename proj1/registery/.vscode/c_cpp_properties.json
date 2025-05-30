@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Keil_v5",
+            "includePath": [
+                "C:/Users/abbas/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include",
+                "C:/Keil_v5/ARM/ARMCLANG/include",
+                "C:/Users/abbas/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include"
+            ],
+            "defines": [
+                "STM32F103C8"
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

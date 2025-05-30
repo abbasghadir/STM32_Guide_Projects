@@ -1,0 +1,17 @@
+void SystemClock_Config(void);
+void GPIO_init(void);
+void delay_ms(uint32_t mx);
+void PINB10_on(void);
+void PINB10_off(void);
+void EXTI_config(void);
+void EXTI_config(void);
+void EXTI_config(void);
+void NVIC_config(void);
+void systick_config(uint32_t systemclock);
+uint32_t GetTick(void);
+bool input_pin_event(void);
+void TIM3_start(void);
+void TIM3_config(void);
+void send_TimeDate(void);
+void RTC_config(void);
+void UART_config(void);
