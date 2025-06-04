@@ -1,30 +1,13 @@
-<style>
-	.header {
-		font-weight:bold;
-		font-size: 32px;
-		font-family: Times New Roman;
-	}
-	.titr {
-		font-weight:bold;
-		font-size: 24px;
-		font-family: Times New Roman;
-	}
-	.paraghraph {
-		font-weight:normal;
-		font-size: 16px;
-		font-family: Times New Roman;
-	}
-</style>
-<h1 align="center" class = "header">
+<h1 align="center" style = "font-weight:bold; font-size: 32px; font-family: Times New Roman;">
 STM32F10x Guidance Project: Timer, RTC, Interrupt, UART, DMA, GPIO and RRC in registry state.
 </h1>
-<h2 class = "titr">
+<h2 style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Overview
 </h2>
 <p align="justify" class = "paraghraph">
 This project is a firmware implementation for an STM32F10x microcontroller to display the current time and date via UART when triggered by an external interrupt. The system uses a Real-Time Clock (RTC) to maintain timekeeping, a timer (TIM3) for controlling an output pin, and a debounced input pin to trigger the transmission of time and date data.
 </p>
-<h2 class = "titr">
+<h2 style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Features
 </h2>
 <ul class = "paraghraph">
@@ -38,7 +21,7 @@ Features
   <li>Transmits time and date via UART (USART1) at 115200 baud.</li>
   <li>Implements a SysTick timer for millisecond-based timing and debouncing.</li>
 </ul>
-<h2 class = "titr">
+<h2 class = "titr" style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Hardware Requirements
 </h2>
 <ul class = "paraghraph">
@@ -61,7 +44,7 @@ Hardware Requirements
 		Backup battery for RTC (optional for persistent timekeeping).
 	</li>
 </ul>
-<h2 class = "titr">
+<h2 class = "titr" style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Software Requirements
 </h2>
 <ul class = "paraghraph">
@@ -75,7 +58,7 @@ Software Requirements
 		Compiler toolchain (e.g., GCC for ARM).
 	</li>
 </ul>
-<h2 class = "titr">
+<h2 class = "titr" style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Setup Instructions
 </h2>
 <ol class = "paraghraph">
@@ -122,7 +105,7 @@ Setup Instructions
 		</li>
 	</ul>
 </ol>
-<h2 class = "titr">
+<h2 class = "titr" style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Code Structure
 </h2>
 <ul class = "paraghraph">
@@ -157,7 +140,7 @@ Code Structure
 		<strong>input_pin_event:</strong> Handles debouncing and interrupt flag management for PA1.
 	</li>
 </ul>
-<h2 class = "titr">
+<h2 class = "titr" style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Usage
 </h2>
 <ul class = "paraghraph">
@@ -171,7 +154,7 @@ Usage
 		Monitor the UART output on a terminal emulator at 115200 baud, 8N1.
 	</li>
 </ul>
-<h2 class = "titr">
+<h2 class = "titr" style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Notes
 </h2>
 <ul class = "paraghraph">
@@ -188,7 +171,7 @@ Notes
 		The UART baud rate is fixed at 115200. Adjust USART1->BRR in UART_config for different baud rates if needed.
 	</li>
 </ul>
-<h2 class = "titr">
+<h2 class = "titr" style = "font-weight:bold; font-size: 24px; font-family: Times New Roman;">
 Languages and Tools:
 </h2>
 <p align="left">
